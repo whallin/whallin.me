@@ -1,0 +1,11 @@
+---
+import "../styles/cards.css";
+import { t } from "i18next";
+import { localizePath } from "astro-i18next";
+---
+
+<div class="card contact-card">
+    <h2>{t("card.contact-heading")}</h2>
+    <p>{t("card.contact-text")}</p>
+    <a href={localizePath("/contact")} rel="prefetch">{t("cta.get-in-touch")}</a>
+</div>

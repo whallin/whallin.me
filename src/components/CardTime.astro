@@ -1,0 +1,24 @@
+---
+import "../styles/cards.css";
+import { t } from "i18next";
+---
+
+<script is:inline>
+    setInterval(() => {
+        const clock24Hour = new Date().toLocaleTimeString("sv-SE", {
+            timeZone: "Europe/Stockholm",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: false,
+        });
+        document.getElementById("clock24Hour").innerHTML = clock24Hour;
+    }, 1000);
+</script>
+
+<div class="card time-card">
+    <h2>{t("card.time-heading")}</h2>
+    <p>{t("card.time-text")}</p>
+    <p id="clock24Hour" class="time-card-time"></p>
+    <a href="https://time.is/compare" target="_blank" rel="nofollow noopener">{t("cta.compare-time")}</a>
+</div>

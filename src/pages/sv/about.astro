@@ -1,0 +1,29 @@
+---
+import { changeLanguage, t } from "i18next";
+import { Image } from "@astrojs/image/components";
+import DefaultLayout from "../../layouts/Default.astro";
+import CardContact from "../../components/CardContact.astro";
+
+changeLanguage("sv");
+---
+
+<DefaultLayout title={t("title.about")}>
+    <div class="default-grid">
+        <div class="col-span-1 lg:col-span-2">
+            <p>{t("about.paragraph-1")}</p>
+            <p>{t("about.paragraph-2")}</p>
+            <p>{t("about.paragraph-3")}</p>
+            <ul>
+                <li>{t("about.list-item-1")}</li>
+                <li>{t("about.list-item-2")}</li>
+                <li>{t("about.list-item-3")}</li>
+                <li>{t("about.list-item-4")}</li>
+            </ul>
+            <p>{t("about.paragraph-4")}</p>
+        </div>
+        <div>
+            <Image src="/imgs/me.webp" class="hide-img pb-6" alt={t("contact.img-alt")} format="webp" aspectRatio="16:25" width="368" />
+            <CardContact />
+        </div>
+    </div>
+</DefaultLayout>

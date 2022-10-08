@@ -1,0 +1,21 @@
+---
+import "../styles/nowplaying.css";
+import { Image } from '@astrojs/image/components';
+import { t } from "i18next";
+---
+
+<script>
+    const nowPlaying = await fetch("https://whallin-me-nowplaying.vercel.app/")
+    const nowPlayingJSON = await nowPlaying.json()
+    document.getElementById("nowPlayingSong").innerHTML = nowPlayingJSON.items[0].track.artists[0].name + ' - ' + nowPlayingJSON.items[0].track.name;
+    document.getElementById("nowPlayingLink").href = nowPlayingJSON.items[0].track.external_urls.spotify;
+    document.getElementById("nowPlayingImage").src = nowPlayingJSON.items[0].track.album.images[2].url;
+</script>
+
+<div class="nowplaying">
+    <Image id="nowPlayingImage" src="/favicon/apple-touch-icon.png" class="nowplaying-cover-img" alt=`${t("nowplaying.cover-art-alt")}` format="webp" aspectRatio="1:1" width="64" />
+    <a id="nowPlayingLink" target="_blank" rel="nofollow noopener" class="global-hover">
+        <p class="nowplaying-text opacity-50">{t("nowplaying.now-playing")}</p>
+        <p id="nowPlayingSong" class="nowplaying-text text-green-200"></p>
+    </a>
+</div>

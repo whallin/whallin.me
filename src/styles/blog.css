@@ -1,0 +1,11 @@
+.blog-cover-image {
+    @apply object-cover w-full h-96 mt-2 mb-6
+}
+
+.blog-list-item {
+    background-color: #00000095;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    @apply p-6 my-6
+}

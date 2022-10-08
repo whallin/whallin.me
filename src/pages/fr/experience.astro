@@ -1,0 +1,26 @@
+---
+import { changeLanguage, t } from "i18next";
+import DefaultLayout from "../../layouts/Default.astro";
+import ExperienceItem from "../../components/ExperienceItem.astro";
+
+changeLanguage("fr");
+---
+
+<DefaultLayout title={t("title.experience")}>
+    <div class="default-grid">
+        <div>
+            <h2>{t("experience.work")}</h2>
+            <ExperienceItem name="Newgent Digital" role="Founder & VD" link="https://newgent.org" icon="/imgs/icons/newgent-digital.svg" />
+            <ExperienceItem name="Creavite" role="COO" link="https://auto.creavite.co" icon="/imgs/icons/creavite.svg" />
+            <ExperienceItem name="eclean" role="Co-founder & CEO" link="https://eclean.gg" icon="/imgs/icons/eclean.svg" />
+        </div>
+        <div>
+            <h2>{t("experience.education")}</h2>
+            <ExperienceItem name="Anderstorpsgymnasiet" role="Digital Communication and Media" link="#" icon="/imgs/icons/skelleftea.svg" />
+        </div>
+        <div>
+            <h2>{t("experience.volunteer")}</h2>
+            <ExperienceItem name="Nordsken" role="Electrician" link="https://nordsken.se" icon="/imgs/icons/nordsken.svg" />
+        </div>
+    </div>
+</DefaultLayout>

@@ -1,0 +1,19 @@
+---
+import "../styles/footer.css";
+import { t } from "i18next";
+import { LanguageSelector } from "astro-i18next/components";
+import { localizePath } from "astro-i18next";
+import { Image } from "@astrojs/image/components";
+
+const currentYear = new Date().getFullYear()
+---
+
+<div class="footer">
+    <div class="footer-interact">
+        <a href={localizePath("/")} rel="prefetch">
+            <Image src="/imgs/logomark-light.svg" format="webp" aspectRatio="38:1" width="76" height="32" class="footer-img" alt=`${t("seo.logo-for")} William Hallin` />
+        </a>
+        <LanguageSelector showFlag={true} class="footer-lang-select" />
+    </div>
+    <p class="text-neutral-50/50">Copyright {currentYear} © NWG Digital AB</p>
+</div>

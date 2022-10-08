@@ -1,0 +1,45 @@
+---
+import "../styles/blog.css"
+import Footer from "../components/Footer.astro";
+import SEO from "../components/SEO.astro";
+import i18next, { changeLanguage, t } from "i18next";
+import { localizePath } from "astro-i18next";
+import { Image } from "@astrojs/image/components";
+
+export interface Props {
+    content: {
+        language?: string;
+        title?: string;
+        seoTitle?: string;
+        description?: string;
+        pubDate?: string;
+        coverImage?: string;
+    };
+}
+
+const { content: { language, title, seoTitle, description, pubDate, coverImage }, } = Astro.props;
+const { minutesRead } = Astro.props.frontmatter;
+
+changeLanguage(`${language}`);
+---
+
+<html lang={i18next.language}>
+	<head>
+		<SEO title={seoTitle} description={description} image={coverImage} />
+	</head>
+
+	<body>
+		<a href={localizePath("/blog")} rel="prefetch">{t("cta.back-to-blog")}</a>
+		<main>
+            <h1 class="pt-4 pb-0">{title}</h1>
+            <p class="text-opacity-50 pb-4">{pubDate} • {minutesRead}</p>
+            <Image src={coverImage} aspectRatio="3:1" width="1152" alt={t("seo.blog-cover-image-alt")} class="blog-cover-image" />
+            <article>
+                <slot />
+            </article>
+		</main>
+		<footer>
+			<Footer />
+		</footer>
+	</body>
+</html>

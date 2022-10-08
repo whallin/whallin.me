@@ -1,0 +1,97 @@
+{
+    "title": {
+        "about": "About",
+        "experience": "Experience",
+        "toolbox": "Toolbox",
+        "contact": "Contact",
+        "blog": "Blog"
+    },
+
+    "cta": {
+        "learn-more": "Learn more ->",
+        "explore": "Explore ->",
+        "read-post": "Read post ->",
+        "browse": "Browse ->",
+        "get-in-touch": "Get in touch ->",
+        "compare-time": "Compare time ->",
+        "back": "<- Back",
+        "back-to-blog": "<- Back to blog"
+    },
+
+    "nowplaying": {
+        "now-playing": "Now playing",
+        "cover-art-alt": "Cover art for"
+    },
+
+    "seo": {
+        "logo-for": "Logo for",
+        "image-alt": "Showing the logo for William Hallin",
+        "blog-cover-image-alt": "Showing the cover for William Hallin's blog",
+        "description": "William Hallin is a Swedish freelancer specializing in interface and graphics design, creating a wide variety of products for businesses and individuals."
+    },
+
+    "card": {
+        "about-heading": "I'm William Hallin",
+        "about-text": "I'm a freelancer and student at Anderstorpsgymnasiet. I specialize in user interface and graphic design while carrying a big interest in TV production and network engineering.",
+        "portfolio-heading": "Portfolio",
+        "portfolio-text": "All my various designs are available for viewing over at Behance.",
+        "experience-heading": "Experience & Education",
+        "experience-text": "Everything from previous locations of work to my education may be interesting information to you as a possible employer. So, here's a barebones list of what I've done throughout my life.",
+        "blog-heading": "Blog",
+        "blog-text": "I tend to write about digital design, development, and other topics that interest me.",
+        "toolbox-heading": "Toolbox",
+        "toolbox-text": "Curious about what I use? Here's a list of tools I use to get things done.",
+        "contact-heading": "Contact",
+        "contact-text": "I'm always open to new opportunities. Reach out to me with your ideas or questions, and we can happily start talking.",
+        "time-heading": "What's the time?",
+        "time-text": "I'm currently in Skellefteå, Sweden. Here's the current time here:"
+    },
+    
+    "about": {
+        "paragraph-1": "I'm a freelancer and student at Anderstorpsgymnasiet. I specialize in user interface and graphic design while carrying a big interest in TV production and network engineering.",
+        "paragraph-2": "I'm also an average person in my spare time. I enjoy tinkering around in my home lab, enjoying the fast-paced period of Formula 1, and listening to music with unnecessary high fidelity.",
+        "paragraph-3": "Then you might be wondering, what's the point of this website? Well, I'm glad you asked—I don't know myself. But here are my speculations:",
+        "paragraph-4": "Now, if those are good guesses, I don't know. But I'm sure you'll find something interesting here, so feel free to explore. I hope you enjoy your stay.",
+        "list-item-1": "Build an outreach to you, the consumer,",
+        "list-item-2": "Make it easier for you and me to connect,",
+        "list-item-3": "Create a platform to showcase and share my work,",
+        "list-item-4": "or waste my time and yours.",
+        "img-alt": "Picture of William Hallin"
+    },
+
+    "experience": {
+        "work": "Work",
+        "education": "Education",
+        "volunteer": "Volunteer"
+    },
+
+    "toolbox": {
+        "design": "Design",
+        "development": "Development",
+        "other": "Other",
+        "about-figma": "Can I thank Figma enough? Figma is a great tool for primarily user interface/web design, but it's also been a great tool for me to complete some graphics design too.",
+        "about-iconify": "Iconify is a free and open-source icon library. In short, they collect almost every icon pack you can find into one simple browser for finding the icons you need.",
+        "about-svg-export": "SVG Export is a great little browser extension. It finds every .svg file on a website and lets you easily pick which ones to save or copy—a huge timesaver.",
+        "about-hetzner": "Hetzner has been my go-to hosting provider for a good few years. I use Hetzner's cloud servers for both labs and also production deployments of various kinds.",
+        "about-polypane": "When it comes to creating responsive and accessible front-end websites, Polypane is a must-have in my stack. It makes creating responsive websites fun.",
+        "about-tailwindcss": "Tailwind CSS is a CSS framework that saves me an immense amount of time when prototyping and doing front-end web development.",
+        "about-tldraw": "tldraw is a great online whiteboard to let me quickly create mood boards and maps over software and infrastructure. It makes my mind a little bit less of a mess.",
+        "about-postmark": "I always use Postmark for sending my transactional emails for production apps. Great delivery % and great customer support. Can it get better?",
+        "about-yubikey": "YubiKey's are a must-have for me regarding security. It helps me add a sense of zero-trust across all my services without any struggle.",
+        "about-brainfm": "Brain.fm has been a great addition to my stack to help me focus and relax no matter the time of day. Plug in my headset or put in my in-ears and I'll drift away."
+    },
+
+    "contact": {
+        "paragraph-1": "Thanks for your interest in my products and services. I'm always open to new opportunities, and I'm always happy to talk about new ideas.",
+        "paragraph-2": "You can message me about anything, everything from questions about my products and services to just a simple hello. Maybe you have a question about my blog or want to talk about music. But please, don't reach out to me for the following:",
+        "paragraph-3": "For commercial inquiries, please come prepared with information regarding your project and ideas and a budget range you want to work in. I'll get back to you as soon as possible.",
+        "list-item-1": "Investment advice or any other kind of financial advice (I'm not a financial advisor),",
+        "list-item-2": "Cold marketing, spam, or any other kind of unsolicited messages",
+        "subheading-1": "Let's get talking",
+        "img-alt": "Picture of William Hallin"
+    },
+
+    "blog": {
+        "language-disclaimer": "This blog is written in English and Swedish. If you want to read it in any other language, I apologize—but as of currently, there isn't any time for me to translate all posts into the available languages."
+    }
+}

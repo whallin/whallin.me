@@ -1,0 +1,51 @@
+.card {
+    @apply p-6 flex flex-col justify-center
+}
+
+.about-card {
+    background-color: #00000095;
+    background-image: url(../imgs/card-bg/about.webp);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.latest-post-card {
+    @apply bg-gradient-to-r from-orange-600 to-orange-400
+}
+
+.portfolio-card {
+    @apply bg-gradient-to-r from-sky-400 to-blue-500
+}
+
+.experience-card {
+    background-color: #00000095;
+    background-image: url(../imgs/card-bg/experience.webp);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.blog-card {
+    @apply bg-gradient-to-r from-green-600 to-green-500
+}
+
+.toolbox-card {
+    @apply bg-gradient-to-r from-violet-400 to-violet-500
+}
+
+.contact-card {
+    background-color: #00000095;
+    background-image: url(../imgs/card-bg/contact.webp);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.time-card {
+    @apply bg-gradient-to-r from-blue-400 to-violet-500
+}
+
+.time-card-time {
+    @apply pt-0 font-medium text-lg
+}

@@ -1,0 +1,21 @@
+.footer {
+    @apply flex flex-col items-center py-12
+}
+
+.footer-interact {
+    @apply flex flex-row items-center gap-6
+}
+
+.footer-img {
+    width: auto;
+    height: 2rem;
+    opacity: 50%;
+    @apply duration-100 hover:opacity-75
+}
+
+.footer-lang-select {
+    font-family: 'Inter', sans-serif;
+    background-color: #010101;
+    border-style: none;
+    @apply text-neutral-50/50;
+}

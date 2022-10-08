@@ -1,0 +1,32 @@
+---
+import { changeLanguage, t } from "i18next";
+import { Image } from "@astrojs/image/components";
+import DefaultLayout from "../layouts/Default.astro";
+import CardTime from "../components/CardTime.astro";
+import ContactItem from "../components/ContactItem.astro";
+
+changeLanguage("en");
+---
+
+<DefaultLayout title={t("title.contact")}>
+    <div class="default-grid">
+        <div class="col-span-1 lg:col-span-2">
+            <p>{t("contact.paragraph-1")}</p>
+            <p>{t("contact.paragraph-2")}</p>
+            <ul>
+                <li>{t("contact.list-item-1")}</li>
+                <li>{t("contact.list-item-2")}</li>
+            </ul>
+            <p>{t("contact.paragraph-3")}</p>
+            <h2 class="pt-6">{t("contact.subheading-1")}</h2>
+            <ContactItem brand="Email" name="william@whallin.me" link="mailto:william@whallin.me" icon="/imgs/icons/send.svg" />
+            <ContactItem brand="Discord" name="William#0203" link="#" icon="/imgs/icons/discord.svg" />
+            <ContactItem brand="LinkedIn" name="@williamhallin" link="https://linkedin.com/in/williamhallin/" icon="/imgs/icons/linkedin.svg" />
+            <ContactItem brand="Polywork" name="@whallin" link="https://polywork.com/whallin" icon="/imgs/icons/polywork.svg" />
+        </div>
+        <div>
+            <Image src="/imgs/me.webp" class="hide-img pb-6" alt={t("contact.img-alt")} format="webp" aspectRatio="16:25" width="368" />
+            <CardTime />
+        </div>
+    </div>
+</DefaultLayout>

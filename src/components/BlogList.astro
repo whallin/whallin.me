@@ -1,0 +1,20 @@
+---
+import "../styles/blog.css";
+import { t } from "i18next";
+import { localizePath } from "astro-i18next";
+
+const posts = (await Astro.glob('../pages/posts/*.md')).sort(
+	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+);
+---
+
+<div>
+    {posts.map((post) => (
+        <div class="blog-list-item" style={{backgroundImage: `url(${post.frontmatter.coverImage})`}}>
+            <h2 class="pb-0">{post.frontmatter.title}</h2>
+            <p class="text-opacity-50 pb-0">{post.frontmatter.pubDate} • {post.frontmatter.minutesRead}</p>
+            <p>{post.frontmatter.description}</p>
+            <a href={localizePath(`${post.url}`)} rel="prefetch">{t("cta.read-post")}</a>
+        </div>
+    ))}
+</div>

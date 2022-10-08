@@ -1,0 +1,12 @@
+.nowplaying {
+    @apply flex flex-row col-span-1 lg:col-span-3 items-center gap-4
+}
+
+.nowplaying-text {
+    @apply p-0
+}
+
+.nowplaying-cover-img {
+    width: auto;
+    height: 4rem;
+}

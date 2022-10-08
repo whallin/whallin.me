@@ -1,0 +1,88 @@
+{
+    "title": {
+        "about": "À propos",
+        "experience": "Expérience",
+        "toolbox": "Boîte à outils",
+        "contact": "Contact",
+        "blog": "Blog"
+    },
+    "cta": {
+        "learn-more": "Plus d'informations",
+        "explore": "Explorer ->",
+        "read-post": "Lire la publication →",
+        "browse": "Parcourir ->",
+        "get-in-touch": "Contacter moi ->",
+        "compare-time": "Comparer le temps ->",
+        "back": "<- Retour",
+        "back-to-blog": "<- Retour au blog"
+    },
+    "nowplaying": {
+        "now-playing": "Lecture en cours",
+        "cover-art-alt": "Pochette pour"
+    },
+    "seo": {
+        "logo-for": "Logo de société",
+        "image-alt": "Afficher le logo de William Hallin",
+        "blog-cover-image-alt": "Afficher la couverture pour le blog de William Hallin",
+        "description": "William Hallin est un travailleur libre suédois spécialisé dans la conception d'interface est les design graphiques, créer une grande variété de produits pour les entreprises et les particuliers."
+    },
+    "card": {
+        "about-heading": "Je suis William Hallin",
+        "about-text": "Je suis indépendant et étudiant à Anderstorpsgymnasiet. Je me spécialise dans l'interface utilisateur et la conception graphique tout en portant un grand intérêt pour la production télévisuelle et l'ingénierie des réseaux.",
+        "portfolio-heading": "Portfolio",
+        "portfolio-text": "Tous mes modèles peuvent être visionnés chez Behance.",
+        "experience-heading": "Expériences et éducation",
+        "experience-text": "Tout, de mes lieux de travail précédents à mes études, peuvent être des informations intéressantes pour vous en tant qu'employeur potentiel. Donc, voici une liste sommaire de ce que j'ai fait tout au long de ma vie.",
+        "blog-heading": "Blog",
+        "blog-text": "J'ai tendance à écrire sur le design numérique, le développement et d'autres sujets qui m'intéressent.",
+        "toolbox-heading": "Boîte à outils",
+        "toolbox-text": "Vous êtes curieux de savoir ce que j'utilise ? Voici une liste d'outils que j'utilise pour travailler.",
+        "contact-heading": "Contact",
+        "contact-text": "Je suis toujours ouvert à de nouvelles opportunités. Contactez-moi avec vos idées ou vos questions, et nous pourrons commencer à parler.",
+        "time-heading": "Quel heure est-il?",
+        "time-text": "Je suis actuellement à Skellefteå, Suède. Voici l'heure actuelle ici :"
+    },
+    "about": {
+        "paragraph-1": "Je suis indépendant et étudiant à Anderstorpsgymnasiet. Je me spécialise dans l'interface utilisateur et la conception graphique tout en portant un grand intérêt pour la production télévisuelle et l'ingénierie des réseaux.",
+        "paragraph-2": "Je suis également une personne normal pendant mon temps libre. J'aime bricoler dans mon laboratoire de maison, profiter de la période rapide de Formule 1 et écouter de la musique avec une fidélité inutile et élevée.",
+        "paragraph-3": "Alors vous vous demandez peut-être à quoi sert ce site Web ? Eh bien, je suis heureux que vous m'ayez demandé car moi-même je ne sais pas . Mais voici mes spéculations :",
+        "paragraph-4": "Maintenant est ce que c'est suppositions sont bonne, je ne sais pas. Mais je suis sûr que vous trouverez quelque chose d'intéressant ici, alors n'hésitez pas à explorer. J'espère que vous apprécierez votre séjour.",
+        "list-item-1": "Construire une approche vers vous, le consommateur,",
+        "list-item-2": "Faciliter le contact entre vous et moi",
+        "list-item-3": "Créer une plateforme pour mettre en valeur et partager mon travail,",
+        "list-item-4": "ou perdre mon temps et le vôtre.",
+        "img-alt": "Photo de William Hallin"
+    },
+    "experience": {
+        "work": "Travail",
+        "education": "Éducation",
+        "volunteer": "Volontariat"
+    },
+    "toolbox": {
+        "design": "Design",
+        "development": "Développement",
+        "other": "Autre",
+        "about-figma": "Puis-je suffisamment remercier Figma ? Figma est un excellent outil pour le design d'interface/web de l'utilisateur, mais il a aussi été un excellent outil pour moi pour compléter quelques un de mes design graphiques.",
+        "about-iconify": "Iconify est une bibliothèque d'icônes libre et open-source. En bref, ils recueillent presque chaque pack d'icônes que vous pouvez trouver dans un simple navigateur pour trouver les icônes dont vous avez besoin.",
+        "about-svg-export": "SVG Export est une excellente petite extension de navigateur, il trouve tous les . svg file sur un site Web et vous permet de choisir facilement ceux à enregistrer ou à copier, c'est un énorme gain de temps.",
+        "about-hetzner": "Hetzner est mon fournisseur d'hébergement depuis quelques années. J'utilise les serveurs cloud de Hetzner à la fois pour les laboratoires et aussi pour les déploiements de production de divers types.",
+        "about-polypane": "En ce qui concerne la création de sites web de front-end réactifs et accessibles, Polypane est un incontournable dans ma pile, il rend la création de sites web réactifs amusants.",
+        "about-tailwindcss": "Tailwind CSS est un framework CSS qui me permet d'économiser énormément de temps lorsque je fais du prototypage et du développement web front-end.",
+        "about-tldraw": "tldraw est un excellent tableau blanc en ligne qui me permettre de créer rapidement des planches d'humeur et des cartes sur les logiciels et des infrastructures. Cela me facilite la tâche.",
+        "about-postmark": "J'utilise toujours Postmark pour envoyer mes courriers transactionnels pour les applications de production. Une bonne livraison et un excellent service clientèle, peut-on faire mieux ?",
+        "about-yubikey": "Les YubiKey sont un incontournable pour moi en matière de sécurité. Cela m'aide à ajouter un sentiment de confiance zéro à tous mes services sans aucune difficulté.",
+        "about-brainfm": "Brain.fm a été un excellent ajout à ma pile pour m'aider à me concentrer et à me détendre, peu importe l'heure de la journée. J'ai juste à brancher mon casque ou mes oreillettes et je suis emporté."
+    },
+    "contact": {
+        "paragraph-1": "Merci de vous être intéressé à mes produits et services. Je suis toujours ouvert à de nouvelles opportunités, et je suis toujours heureux de parler de nouvelles idées.",
+        "paragraph-2": "Vous pouvez m'envoyer un message pour quoi que ce soit, des questions sur mes produits et services à un simple bonjour. Peut-être avez-vous une question au sujet de mon blog ou vous voulez parler de la musique. Mais s'il vous plaît, ne me contactez pas pour les éléments suivants :",
+        "paragraph-3": "Pour toute demande commerciale, veuillez préparer les informations concernant votre projet et vos idées et une fourchette budgétaire dans laquelle vous souhaitez travailler. Je vous répondrais dans les plus brefs délais.",
+        "list-item-1": "Conseils en matière d'investissement ou tout autre type de conseil financier (je ne suis pas un conseiller financier),",
+        "list-item-2": "Commercialisation froide, pourriel ou tout autre type de messages non sollicités",
+        "subheading-1": "Parlons",
+        "img-alt": "Photo de William Hallin"
+    },
+    "blog": {
+        "language-disclaimer": "Ce blog est écrit en anglais et en suédois. Si vous voulez le lire dans une autre langue, je vous présente mes excuses, mais en ce moment , je n'ai pas le temps de traduire tous les postes dans les langues disponibles."
+    }
+}

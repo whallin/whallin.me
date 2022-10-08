@@ -1,0 +1,21 @@
+---
+import "../styles/items.css"
+import { t } from "i18next";
+import { Image } from "@astrojs/image/components";
+
+export interface Props {
+	name?: string;
+    about?: string;
+    link?: string;
+    icon?: string;
+}
+const { name = 'n/a', about = 'n/a', link = '#', icon = '/imgs/logomark-light.svg' } = Astro.props as Props;
+---
+
+<div class="experienceitem">
+    <Image src={icon} alt=`${t("seo.logo-for")} ${name}` class="experienceitem-icon" format="webp" aspectRatio="1:1" width="64" />
+    <a href={link} target="_blank" rel="nofollow noopener" class="global-hover">
+        <p class="p-0 text-amber-100">{name} -></p>
+        <p class="p-0">{about}</p>
+    </a>
+</div>

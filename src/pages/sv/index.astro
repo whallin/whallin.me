@@ -1,0 +1,43 @@
+---
+import { changeLanguage, t } from "i18next";
+import { localizePath } from "astro-i18next";
+import LandingLayout from "../../layouts/Landing.astro";
+import CardContact from "../../components/CardContact.astro";
+import CardTime from "../../components/CardTime.astro";
+import NowPlaying from "../../components/NowPlaying.astro";
+
+changeLanguage("sv");
+---
+
+<LandingLayout title="William Hallin">
+	<div class="default-grid">
+		<div class="card about-card col-span-1 lg:col-span-2">
+			<h1>{t("card.about-heading")}</h1>
+			<p>{t("card.about-text")}</p>
+			<a href={localizePath("/about")} rel="prefetch">{t("cta.learn-more")}</a>
+		</div>
+		<CardTime />
+		<div class="card portfolio-card">
+			<h2>{t("card.portfolio-heading")}</h2>
+			<p>{t("card.portfolio-text")}</p>
+			<a href="https://behance.net/whallin" target="_blank" rel="nofollow noopener">behance.net/whallin -></a>
+		</div>
+		<div class="card experience-card col-span-1 lg:col-span-2">
+			<h2>{t("card.experience-heading")}</h2>
+			<p>{t("card.experience-text")}</p>
+			<a href={localizePath("/experience")} rel="prefetch">{t("cta.explore")}</a>
+		</div>
+		<div class="card blog-card">
+			<h2>{t("card.blog-heading")}</h2>
+			<p>{t("card.blog-text")}</p>
+			<a href={localizePath("/blog")} rel="prefetch">{t("cta.browse")}</a>
+		</div>
+		<div class="card toolbox-card">
+			<h2>{t("card.toolbox-heading")}</h2>
+			<p>{t("card.toolbox-text")}</p>
+			<a href={localizePath("/toolbox")} rel="prefetch">{t("cta.explore")}</a>
+		</div>
+		<CardContact />
+		<NowPlaying />
+	</div>
+</LandingLayout>

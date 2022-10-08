@@ -1,0 +1,18 @@
+---
+import { changeLanguage, t } from "i18next";
+import DefaultLayout from "../../layouts/Default.astro";
+import BlogList from "../../components/BlogList.astro";
+
+changeLanguage("sv");
+---
+
+<DefaultLayout title={t("title.blog")}>
+    <body>
+        <blockquote>
+            <p>{t("blog.language-disclaimer")}</p>
+        </blockquote>
+        <div class="mt-8">
+            <BlogList />
+        </div>
+    </body>
+</DefaultLayout>

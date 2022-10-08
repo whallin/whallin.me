@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fff" stop-opacity=".618"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#393756"/>
+      <stop offset=".247" stop-color="#393756"/>
+      <stop offset=".258" stop-color="#306985"/>
+      <stop offset=".586" stop-color="#306985"/>
+      <stop offset=".599" stop-color="#3d84a8"/>
+      <stop offset="1" stop-color="#3d84a8"/>
+    </linearGradient>
+    <linearGradient xlink:href="#c" id="f" x1="871.652" x2="260.364" y1="-241.27" y2="-808.615" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#208dc5"/>
+      <stop offset=".044" stop-color="#208dc5"/>
+      <stop offset="1" stop-color="#16c58d"/>
+    </linearGradient>
+    <linearGradient xlink:href="#d" id="h" x1="578.119" x2="624.067" y1="-523.324" y2="-157.755" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".851"/>
+    </linearGradient>
+    <linearGradient xlink:href="#e" id="k" x1="44.832" x2="970.722" y1="562.588" y2="558.776" gradientTransform="translate(0 .973)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="e">
+      <stop offset="0" stop-color="#208dc5"/>
+      <stop offset=".307" stop-color="#208dc5"/>
+      <stop offset=".317" stop-color="#1baaa8"/>
+      <stop offset=".65" stop-color="#1ba9a9"/>
+      <stop offset=".663" stop-color="#16c58d"/>
+      <stop offset="1" stop-color="#16c58d"/>
+    </linearGradient>
+    <filter id="g" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#306985" flood-opacity=".384" result="flood"/>
+      <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+      <feGaussianBlur in="composite1" result="blur" stdDeviation="10"/>
+      <feOffset dy="6" result="offset"/>
+      <feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+      <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feFlood flood-color="#306985" flood-opacity=".384" result="flood"/>
+      <feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+      <feGaussianBlur in="composite1" result="blur" stdDeviation="3.2"/>
+      <feOffset dy=".802" result="offset"/>
+      <feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+    </filter>
+    <filter id="i" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#306985" flood-opacity=".384" result="flood"/>
+      <feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+      <feGaussianBlur in="composite1" result="blur" stdDeviation="6.4"/>
+      <feOffset dy="7.219" result="offset"/>
+      <feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+    </filter>
+    <clipPath id="j" clipPathUnits="userSpaceOnUse">
+      <circle cx="512" cy="540.362" r="425.375" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="20.678"/>
+    </clipPath>
+  </defs>
+  <g transform="matrix(1.13003 0 0 1.13003 -73.501 1085.795)">
+    <circle cx="518.127" cy="-507.768" r="373.479" fill="url(&quot;#f&quot;)" filter="url(#g)" transform="translate(-99.093 97.112) scale(1.19125)"/>
+    <circle cx="518.127" cy="-507.768" r="373.479" fill="url(&quot;#h&quot;)" filter="url(#g)" transform="translate(-52.85 51.793) scale(1.102)"/>
+    <g filter="url(#i)" transform="matrix(-1 0 0 1 1030.493 -1048.984)">
+      <path fill="url(&quot;#k&quot;)" d="M684.572 59.273h279.621v962.178H684.572Zm-314.223 0h262.878v718.124H370.349Zm-320.257 0h268.913v554.07H50.092Z" clip-path="url(#j)" transform="matrix(.878 0 0 .878 62.831 65.925)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+.experienceitem {
+    @apply flex flex-row items-center gap-4 py-4
+}
+
+.experienceitem-icon {
+    width: auto;
+    height: 2rem;
+}

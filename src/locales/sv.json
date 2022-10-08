@@ -1,0 +1,88 @@
+{
+    "title": {
+        "about": "Om",
+        "experience": "Erfarenhet",
+        "toolbox": "Verktygslåda",
+        "contact": "Kontakt",
+        "blog": "Blogg"
+    },
+    "cta": {
+        "learn-more": "Läs mer ->",
+        "explore": "Utforska ->",
+        "read-post": "Läs inlägg ->",
+        "browse": "Bläddra ->",
+        "get-in-touch": "Kom i kontakt ->",
+        "compare-time": "Jämför tid ->",
+        "back": "<- Bakåt",
+        "back-to-blog": "<- Tillbaka till blogg"
+    },
+    "nowplaying": {
+        "now-playing": "Spelas nu",
+        "cover-art-alt": "Omslagsbild för"
+    },
+    "seo": {
+        "logo-for": "Logotyp för",
+        "image-alt": "Visar logotypen för William Hallin",
+        "blog-cover-image-alt": "Visar omslaget till William Hallins blogg",
+        "description": "William Hallin är en svensk frilansare som specialiserar sig på gränssnitt och grafikdesign. Han skapar ett brett utbud av produkter för företag och individer."
+    },
+    "card": {
+        "about-heading": "Jag är William Hallin",
+        "about-text": "Jag är frilansare och student på Anderstorpsgymnasiet. Jag är specialiserad på användargränssnitt och grafisk design samtidigt som jag har ett stort intresse för TV-produktion och nätverksteknik.",
+        "portfolio-heading": "Portfölj",
+        "portfolio-text": "Alla mina olika designs finns tillgängliga för visning på Behance.",
+        "experience-heading": "Erfarenhet & Utbildning",
+        "experience-text": "Allt från tidigare arbetsplatser till min utbildning kan vara intressant information för dig som eventuell arbetsgivare. Så, här är en barebones lista över vad jag har gjort genom mitt liv.",
+        "blog-heading": "Blogg",
+        "blog-text": "Jag har en tendens att skriva om digital design, utveckling och andra ämnen som intresserar mig.",
+        "toolbox-heading": "Verktygslåda",
+        "toolbox-text": "Nyfiken på vad jag använder? Här är en lista med verktyg jag använder för att få saker gjorda.",
+        "contact-heading": "Kontakt",
+        "contact-text": "Jag är alltid öppen för nya möjligheter. Nå ut till mig med dina idéer eller frågor, och vi kan glatt börja prata.",
+        "time-heading": "Vad är klockan?",
+        "time-text": "Jag är för närvarande i Skellefteå, Sverige. Här är den aktuella tiden här:"
+    },
+    "about": {
+        "paragraph-1": "Jag är frilansare och student på Anderstorpsgymnasiet. Jag är specialiserad på användargränssnitt och grafisk design samtidigt som jag har ett stort intresse för TV-produktion och nätverksteknik.",
+        "paragraph-2": "Jag är också en vanlig person på min fritid. Jag tycker om att mixtra omkring i mitt hemlabb, njuta av den snabba perioden av Formula 1, och lyssna på musik med onödig hög kvalitet.",
+        "paragraph-3": "Då kanske du undrar, vad är poängen med denna webbplats? Tja, jag är glad att du frågade - jag vet inte själv. Men här är mina spekulationer:",
+        "paragraph-4": "Nu, om det är bra gissningar, det jag vet inte. Men jag är säker på att du hittar något intressant här, så känn dig fri att utforska. Jag hoppas att du njuta av din vistelse.",
+        "list-item-1": "Bygg ett uppsökande till dig, konsumenten,",
+        "list-item-2": "Gör det enklare för dig och mig att ansluta,",
+        "list-item-3": "Skapa en plattform för att visa upp och dela mitt arbete,",
+        "list-item-4": "eller slösa bort min tid och din.",
+        "img-alt": "Bild på William Hallin"
+    },
+    "experience": {
+        "work": "Arbete",
+        "education": "Utbildning",
+        "volunteer": "Volontär"
+    },
+    "toolbox": {
+        "design": "Design",
+        "development": "Utveckling",
+        "other": "Övrigt",
+        "about-figma": "Kan jag tacka Figma nog? Figma är ett fantastiskt verktyg för främst användargränssnitt/webbdesign, men det har också varit ett bra verktyg för mig att göra lite grafik design också.",
+        "about-iconify": "Iconify är ett bibliotek med ikoner. Kort sagt, de samlar nästan varje ikon paket du kan hitta på ett enkelt sätt så du snabbt kan hitta ikonerna du behöver.",
+        "about-svg-export": "SVG Export är ett enkelt webbläsartillägg. Den hittar varje .svg-fil på en webbplats och låter dig enkelt välja vilka som du vill spara eller kopiera - det är en enorm tidsbesparing.",
+        "about-hetzner": "Hetzner har varit min go-to hosting leverantör i ett bra par år. Jag använder Hetzners molnservrar för både labb och även produktionsinstallationer av olika slag.",
+        "about-polypane": "När det gäller att skapa responsiva och lättillgängliga front-end webbplatser, är Polypane ett måste i min verktygslåda. Polypane gör det roligt att skapa responsiva hemsidor.",
+        "about-tailwindcss": "Tailwind CSS är ett CSS-framework som sparar mig oerhört mycket tid när jag gör prototyper och webbutveckling.",
+        "about-tldraw": "tldraw är en enkel online-whiteboard för att låta mig snabbt skapa mood boards och kartor över programvara och infrastruktur. Det gör mina tankar lite mindre av en röra.",
+        "about-postmark": "Jag använder alltid Postmark för att skicka mina transaktionsmejl för produktionsappar. Bra leverans % och bra kundsupport. Kan det bli bättre?",
+        "about-yubikey": "YubiKeys är ett måste för mig när det gäller säkerhet. Det hjälper mig att lägga till en nypa av noll-förtroende över alla mina tjänster utan någon större kamp.",
+        "about-brainfm": "Brain.fm har varit ett bra komplement till min stack för att hjälpa mig att fokusera och slappna av oavsett tid på dygnet. Koppla in mitt headset eller mina in-ears och jag kommer att driva iväg."
+    },
+    "contact": {
+        "paragraph-1": "Tack för ditt intresse för mina produkter och tjänster. Jag är alltid öppen för nya möjligheter, och jag är alltid glad att prata om nya idéer.",
+        "paragraph-2": "Du kan meddela mig om vad som helst, allt från frågor om mina produkter och tjänster till bara ett enkelt hej. Kanske har du en fråga om min blogg eller vill prata om musik. Men snälla kontakta mig inte för följande:",
+        "paragraph-3": "För kommersiella frågor, vänligen förbered dig med information om ditt projekt och idéer och ett budgetintervall du vill arbeta i. Jag återkommer till dig så snart som möjligt.",
+        "list-item-1": "Investeringsrådgivning eller någon annan form av finansiell rådgivning (jag är inte finansiell rådgivare),",
+        "list-item-2": "Kall marknadsföring, skräppost eller någon annan typ av oönskade meddelanden",
+        "subheading-1": "Låt oss börja prata",
+        "img-alt": "Bild på William Hallin"
+    },
+    "blog": {
+        "language-disclaimer": "Bloggen är skriven på engelska och svenska. Om du vill läsa det på något annat språk, ber jag om ursäkt - men för närvarande finns det ingen tid för mig att översätta alla inlägg till de tillgängliga språken."
+    }
+}

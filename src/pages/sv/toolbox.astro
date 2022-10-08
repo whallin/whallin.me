@@ -1,0 +1,31 @@
+---
+import { changeLanguage, t } from "i18next";
+import DefaultLayout from "../../layouts/Default.astro";
+import ToolboxItem from "../../components/ToolboxItem.astro";
+
+changeLanguage("sv");
+---
+
+<DefaultLayout title={t("title.toolbox")}>
+    <div class="default-grid">
+        <div>
+            <h2>{t("toolbox.design")}</h2>
+            <ToolboxItem name="Figma" about={t("toolbox.about-figma")} link="https://figma.com/" icon="/imgs/icons/figma.svg" />
+            <ToolboxItem name="Iconify" about={t("toolbox.about-iconify")} link="https://iconify.design/" icon="/imgs/icons/iconify.svg" />
+            <ToolboxItem name="SVG Export" about={t("toolbox.about-svg-export")} link="https://svgexport.io/" icon="/imgs/icons/svgexport.svg" />
+        </div>
+        <div>
+            <h2>{t("toolbox.development")}</h2>
+            <ToolboxItem name="Polypane" about={t("toolbox.about-polypane")} link="https://polypane.app/" icon="/imgs/icons/polypane.svg" />
+            <ToolboxItem name="Tailwind CSS" about={t("toolbox.about-tailwindcss")} link="https://tailwindcss.com/" icon="/imgs/icons/tailwindcss.svg" />
+            <ToolboxItem name="Hetzner" about={t("toolbox.about-hetzner")} link="https://hetzner.cloud/?ref=gMQCBkhHkAsW" icon="/imgs/icons/hetzner.svg" />
+        </div>
+        <div>
+            <h2>{t("toolbox.other")}</h2>
+            <ToolboxItem name="tldraw" about={t("toolbox.about-tldraw")} link="https://tldraw.com/" icon="/imgs/icons/tldraw.webp" />
+            <ToolboxItem name="Postmark" about={t("toolbox.about-postmark")} link="https://postmarkapp.com/" icon="/imgs/icons/postmark.svg" />
+            <ToolboxItem name="YubiKey" about={t("toolbox.about-yubikey")} link="https://yubico.com/" icon="/imgs/icons/yubico.svg" />
+            <ToolboxItem name="brain.fm" about={t("toolbox.about-brainfm")} link="https://brain.fm/" icon="/imgs/icons/brainfm.svg" />
+        </div>
+    </div>
+</DefaultLayout>
