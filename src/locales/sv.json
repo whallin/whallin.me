@@ -45,7 +45,7 @@
     "about": {
         "paragraph-1": "Jag är frilansare och student på Anderstorpsgymnasiet. Jag är specialiserad på användargränssnitt och grafisk design samtidigt som jag har ett stort intresse för TV-produktion och nätverksteknik.",
         "paragraph-2": "Jag är också en vanlig person på min fritid. Jag tycker om att mixtra omkring i mitt hemlabb, njuta av den snabba perioden av Formula 1, och lyssna på musik med onödig hög kvalitet.",
-        "paragraph-3": "Då kanske du undrar, vad är poängen med denna webbplats? Tja, jag är glad att du frågade - jag vet inte själv. Men här är mina spekulationer:",
+        "paragraph-3": "Då kanske du undrar, vad är poängen med denna webbplats? Tja, jag är glad att du frågade—jag vet inte själv. Men här är mina spekulationer:",
         "paragraph-4": "Nu, om det är bra gissningar, det jag vet inte. Men jag är säker på att du hittar något intressant här, så känn dig fri att utforska. Jag hoppas att du njuta av din vistelse.",
         "list-item-1": "Bygg ett uppsökande till dig, konsumenten,",
         "list-item-2": "Gör det enklare för dig och mig att ansluta,",
@@ -64,7 +64,7 @@
         "other": "Övrigt",
         "about-figma": "Kan jag tacka Figma nog? Figma är ett fantastiskt verktyg för främst användargränssnitt/webbdesign, men det har också varit ett bra verktyg för mig att göra lite grafik design också.",
         "about-iconify": "Iconify är ett bibliotek med ikoner. Kort sagt, de samlar nästan varje ikon paket du kan hitta på ett enkelt sätt så du snabbt kan hitta ikonerna du behöver.",
-        "about-svg-export": "SVG Export är ett enkelt webbläsartillägg. Den hittar varje .svg-fil på en webbplats och låter dig enkelt välja vilka som du vill spara eller kopiera - det är en enorm tidsbesparing.",
+        "about-svg-export": "SVG Export är ett enkelt webbläsartillägg. Den hittar varje .svg-fil på en webbplats och låter dig enkelt välja vilka som du vill spara eller kopiera—det är en enorm tidsbesparing.",
         "about-hetzner": "Hetzner har varit min go-to hosting leverantör i ett bra par år. Jag använder Hetzners molnservrar för både labb och även produktionsinstallationer av olika slag.",
         "about-polypane": "När det gäller att skapa responsiva och lättillgängliga front-end webbplatser, är Polypane ett måste i min verktygslåda. Polypane gör det roligt att skapa responsiva hemsidor.",
         "about-tailwindcss": "Tailwind CSS är ett CSS-framework som sparar mig oerhört mycket tid när jag gör prototyper och webbutveckling.",
@@ -83,6 +83,6 @@
         "img-alt": "Bild på William Hallin"
     },
     "blog": {
-        "language-disclaimer": "Bloggen är skriven på engelska och svenska. Om du vill läsa det på något annat språk, ber jag om ursäkt - men för närvarande finns det ingen tid för mig att översätta alla inlägg till de tillgängliga språken."
+        "language-disclaimer": "Bloggen är skriven på engelska och svenska. Om du vill läsa det på något annat språk, ber jag om ursäkt—men för närvarande finns det ingen tid för mig att översätta alla inlägg till de tillgängliga språken."
     }
 }
