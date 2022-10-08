@@ -10,19 +10,27 @@ import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), astroI18next(), partytown(), compress(), prefetch(), image({
-    serviceEntryPoint: '@astrojs/image/sharp'
-  }), sitemap({
-    i18n: {
-      defaultLocale: "en",
-      locales: {
-        en: 'en-US',
-        sv: 'sv-SE',
-        fr: 'fr-FR'
-      },
-    },
-  })],
   site: 'https://whallin.me',
+  integrations: [
+    tailwind(),
+    astroI18next(),
+    prefetch(),
+    partytown(),
+    compress(),
+    image({
+      serviceEntryPoint: '@astrojs/image/sharp'
+    }),
+    sitemap({
+      i18n: {
+        defaultLocale: 'en',
+        locales: {
+          en: 'en-US',
+          sv: 'sv-SE',
+          fr: 'fr-FR',
+        },
+      },
+    }),
+  ],
   markdown: {
     remarkPlugins: [remarkReadingTime],
     syntaxHighlight: 'shiki',
