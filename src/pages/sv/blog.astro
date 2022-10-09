@@ -8,10 +8,12 @@ changeLanguage("sv");
 
 <DefaultLayout title={t("title.blog")}>
     <body>
-        <blockquote>
-            <p>{t("blog.language-disclaimer")}</p>
-        </blockquote>
-        <div class="mt-8">
+        <div class="px-6 lg:px-0">
+            <blockquote>
+                <p>{t("blog.language-disclaimer")}</p>
+            </blockquote>
+        </div>
+        <div class="px-6 mt-8 lg:px-0">
             <BlogList />
         </div>
     </body>

@@ -17,8 +17,10 @@ const { title = 'William Hallin' } = Astro.props as Props;
 	</head>
 
 	<body>
-		<a href={localizePath("/")} rel="prefetch">{t("cta.back")}</a>
-		<h1 class="pt-4 pb-6">{title}</h1>
+		<div class="px-6 lg:px-0">
+			<a href={localizePath("/")} rel="prefetch">{t("cta.back")}</a>
+			<h1 class="pt-4 pb-6">{title}</h1>
+		</div>
 		<main>
 			<slot />
 		</main>
