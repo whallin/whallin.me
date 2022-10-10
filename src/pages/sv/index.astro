@@ -11,32 +11,32 @@ changeLanguage("sv");
 
 <LandingLayout title="William Hallin">
 	<div class="default-grid">
-		<div class="card about-card col-span-1 lg:col-span-2">
+		<a href={localizePath("/about")} rel="prefetch" class="card about-card col-span-1 lg:col-span-2">
 			<h1>{t("card.about-heading")}</h1>
 			<p>{t("card.about-text")}</p>
-			<a href={localizePath("/about")} rel="prefetch">{t("cta.learn-more")}</a>
-		</div>
+			<p class="a-fake">{t("cta.learn-more")}</p>
+		</a>
 		<CardTime />
-		<div class="card portfolio-card">
+		<a href="https://behance.net/whallin" target="_blank" rel="nofollow noopener" class="card portfolio-card">
 			<h2>{t("card.portfolio-heading")}</h2>
 			<p>{t("card.portfolio-text")}</p>
-			<a href="https://behance.net/whallin" target="_blank" rel="nofollow noopener">behance.net/whallin -></a>
-		</div>
-		<div class="card experience-card col-span-1 lg:col-span-2">
+			<p class="a-fake">behance.net/whallin -></p>
+		</a>
+		<a href={localizePath("/experience")} rel="prefetch" class="card experience-card col-span-1 lg:col-span-2">
 			<h2>{t("card.experience-heading")}</h2>
 			<p>{t("card.experience-text")}</p>
-			<a href={localizePath("/experience")} rel="prefetch">{t("cta.explore")}</a>
-		</div>
-		<div class="card blog-card">
+			<p class="a-fake">{t("cta.explore")}</p>
+		</a>
+		<a href={localizePath("/blog")} rel="prefetch" class="card blog-card">
 			<h2>{t("card.blog-heading")}</h2>
 			<p>{t("card.blog-text")}</p>
-			<a href={localizePath("/blog")} rel="prefetch">{t("cta.browse")}</a>
-		</div>
-		<div class="card toolbox-card">
+			<p class="a-fake">{t("cta.browse")}</p>
+		</a>
+		<a href={localizePath("/toolbox")} rel="prefetch" class="card toolbox-card">
 			<h2>{t("card.toolbox-heading")}</h2>
 			<p>{t("card.toolbox-text")}</p>
-			<a href={localizePath("/toolbox")} rel="prefetch">{t("cta.explore")}</a>
-		</div>
+			<p class="a-fake">{t("cta.explore")}</p>
+		</a>
 		<CardContact />
 		<NowPlaying />
 	</div>

@@ -10,7 +10,7 @@
     width: auto;
     height: 2rem;
     opacity: 50%;
-    @apply duration-100 hover:opacity-75
+    @apply duration-150 hover:opacity-75
 }
 
 .footer-lang-select {
