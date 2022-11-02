@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/LessBlogPost.astro"
+layout: "../../layouts/LessBlogPost.astro"
 language: "en"
 title: "System Administration"
 seoTitle: "System Administration"
