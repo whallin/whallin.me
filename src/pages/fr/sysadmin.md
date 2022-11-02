@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/LessBlogPost.astro"
-language: "en"
+language: "fr"
 title: "System Administration"
 seoTitle: "System Administration"
 ---

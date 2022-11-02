@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/LessBlogPost.astro"
-language: "en"
+language: "sv"
 title: "System Administration"
 seoTitle: "System Administration"
 ---
@@ -24,7 +24,6 @@ Rustunite, a modded Rust network:
 - Installation och hantering av webbserver och reverse proxy (NGINX) för webbtjänster.
 - DNS och brandväggshantering via Cloudflare för webbtjänster
 - GRE-tunnel från en leverantör av DDoS-skydd för spelservra
-
 
 eclean, a PC optimization software:
 - Installation och hantering av Docker Swarm med 5 noder för en redundant Docker-miljö
