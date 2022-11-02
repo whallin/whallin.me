@@ -44,7 +44,9 @@
         "contact-heading": "Contact",
         "contact-text": "I'm always open to new opportunities. Reach out to me with your ideas or questions, and we can happily start talking.",
         "time-heading": "What's the time?",
-        "time-text": "I'm currently in Skellefteå, Sweden. Here's the current time here:"
+        "time-text": "I'm currently in Skellefteå, Sweden. Here's the current time here:",
+        "sysadmin-heading": "System Administration",
+        "sysadmin-text": "A little collection of sorts of the system administration work I've done."
     },
     
     "about": {

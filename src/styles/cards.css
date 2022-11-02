@@ -18,6 +18,10 @@
     @apply bg-gradient-to-r from-sky-400 to-blue-500
 }
 
+.sysadmin-card {
+    @apply bg-gradient-to-r from-amber-600 to-amber-400
+}
+
 .experience-card {
     background-color: #00000095;
     background-image: url(../imgs/card-bg/experience.webp);
