@@ -7,51 +7,51 @@ seoTitle: "System Administration"
 
 ```nginx
 VerdantPvP, an HCF Minecraft network:
-- Pterodactyl installation and management for game server management
-- Web server and reverse proxy (NGINX) installation and management for web services
-- DNS and firewall management via Cloudflare for web services
-- Grafana and Prometheus for monitoring of databases, NGINX, Docker, Linux installs, and game servers
+- Installation och hantering av Pterodactyl för spelserverhantering
+- Installation och hantering av webbserver och reverse proxy (NGINX) för webbtjänster.
+- DNS och brandväggshantering via Cloudflare för webbtjänster
+- Grafana och Prometheus för övervakning av databaser, NGINX, Docker, Linuxinstallationer och spelservrar
 
 CubedMC, a Survival Minecraft server:
-- Pterodactyl installation and management for game server management
-- Web server and reverse proxy (NGINX) installation and management for web services
-- DNS and firewall management via Cloudflare for web services
-- GRE tunnel from DDoS protection provider for game servers
-- Grafana and Prometheus for monitoring of databases, NGINX, Docker, Linux installs, and game servers
+- Installation och hantering av Pterodactyl för spelserverhantering
+- Installation och hantering av webbserver och reverse proxy (NGINX) för webbtjänster.
+- DNS och brandväggshantering via Cloudflare för webbtjänster
+- GRE-tunnel från en leverantör av DDoS-skydd för spelservrar
+- Grafana och Prometheus för övervakning av databaser, NGINX, Docker, Linuxinstallationer och spelservrar
 
 Rustunite, a modded Rust network:
-- Pterodactyl installation and management for game server management
-- Web server and reverse proxy (nginx) installation and management for web services
-- DNS and firewall management via Cloudflare for web services
-- GRE tunnel from DDoS protection provider for game servers
-- Cloudflare Tunnel for reverse tunneling of web services
+- Installation och hantering av Pterodactyl för spelserverhantering
+- Installation och hantering av webbserver och reverse proxy (NGINX) för webbtjänster.
+- DNS och brandväggshantering via Cloudflare för webbtjänster
+- GRE-tunnel från en leverantör av DDoS-skydd för spelservrar
+- Cloudflare Tunnel för omvänd tunnling av webbtjänster
 
 eclean, a PC optimization software:
-- 5-node Docker swarm setup and management for a redundant Docker environment
-- Reverse proxy (traefik) installation and management for Docker and web services
-- DNS and firewall management via Cloudflare for web services
-- Cloudflare Tunnel for reverse tunneling of web services
-- Grafana and Prometheus for monitoring of databases, Traefik, Docker, and Linux installs
-- Configuration and installation of Warpgate, an SSH bastion host
+- Installation och hantering av Docker Swarm med 5 noder för en redundant Docker-miljö
+- Installation och hantering av omvänd proxy (traefik) för Docker och webbtjänster.
+- DNS och brandväggshantering via Cloudflare för webbtjänster
+- Cloudflare Tunnel för omvänd tunnling av webbtjänster
+- Grafana och Prometheus för övervakning av databaser, Traefik, Docker och Linuxinstallationer
+- Konfiguration och installation av Warpgate, en SSH-bastion värd
 
 Creavite, a design template rendering site:
-- Managing 6 rendering nodes running Windows Server 
-- Web server and reverse proxy (nginx) installation and management for web services
-- DNS and firewall management via Cloudflare for web services
-- Grafana and Prometheus for monitoring of databases, NGINX, Docker, Linux installs, and Windows installs
+- Hantera 6 renderingsnoder med Windows Server
+- Installation och hantering av webbserver och reverse proxy (NGINX) för webbtjänster.
+- DNS och brandväggshantering via Cloudflare för webbtjänster
+- Grafana och Prometheus för övervakning av databaser, NGINX, Docker, Linux- och Windows-installationer
 
 OGX, an account marketplace forum:
-- CloudLinux installation
-- cPanel installation and management for web and email services
-- DNS and firewall management via Cloudflare for web services
+- Installation av CloudLinux
+- Installation och hantering av cPanel för webb- och e-posttjänster
+- DNS och brandväggshantering via Cloudflare för webbtjänster
 
 BIONICWARE, a merch store:
-- DNS and firewall management via Cloudflare for web services
+- DNS och brandväggshantering via Cloudflare för webbtjänster
 
-Newgent, my creative agency:
-- 3-node Docker swarm setup and management for a redundant Docker environment
-- Reverse proxy (traefik) installation and management for Docker and web services
-- DNS and firewall management via Cloudflare for web services
-- Cloudflare Tunnel for reverse tunneling of web services
-- Grafana and Prometheus for monitoring of databases, Traefik, Docker, and Linux installs
+Newgent, a creative agency:
+- Installation och hantering av Docker Swarm med tre noder för en redundant Docker-miljö
+- Installation och hantering av omvänd proxy (traefik) för Docker och webbtjänster.
+- DNS och brandväggshantering via Cloudflare för webbtjänster
+- Cloudflare Tunnel för omvänd tunnling av webbtjänster
+- Grafana och Prometheus för övervakning av databaser, Traefik, Docker och Linuxinstallationer
 ```
